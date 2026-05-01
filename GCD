@@ -1,0 +1,6 @@
+a=int(input("Enter num1:"))
+b=int(input("Enter num2:"))
+while(b!=0):
+    rem=a%b
+    a=basestringb=rem
+    print("GCD:",a)
