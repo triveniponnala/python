@@ -1,0 +1,20 @@
+a=int(input("enter the number1:"))
+b=int(input("enter the number2:"))
+c=int(input("enter the number3:"))
+if a>b and a>c:
+    if b>c:
+        print("second largest number",b)
+    else:
+        print("second largest number",c)
+elif b>c and b>a:
+    if a>c:
+        print("second largest number",a)
+    else:
+        print("second largest number",c)
+else:
+    if a>b:
+        print("second largest number",a)
+    else:
+        print("second largest number",b)
+    
+    
